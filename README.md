@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Manhaton Lane Restaurant
 
-## Getting Started
+![Manhaton Lane](public/restaurant-logo.svg)
 
-First, run the development server:
+A modern, responsive restaurant website for Manhaton Lane, Brisbane's premier destination for gourmet burgers and steaks. The website features a clean, intuitive design that showcases the restaurant's menu items and provides essential information to customers.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🌟 Features
+
+- **Responsive Design**: Fully responsive layout that works seamlessly on desktop, tablet, and mobile devices
+- **Dynamic Menu**: Interactive menu system with detailed item views
+- **Modern UI**: Clean and professional interface with smooth animations and transitions
+- **Accessibility**: WCAG compliant with full keyboard navigation and screen reader support
+- **Performance**: Optimized images and assets for fast loading times
+
+## 🛠️ Technologies Used
+
+### Core
+- [Next.js 14](https://nextjs.org/) - React framework for production
+- [React](https://reactjs.org/) - JavaScript library for user interfaces
+- [TypeScript](https://www.typescriptlang.org/) - Static typing for JavaScript
+
+### Styling & UI
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [shadcn/ui](https://ui.shadcn.com/) - Re-usable components built with Radix UI and Tailwind
+- [Lucide Icons](https://lucide.dev/) - Beautiful open-source icons
+
+### Fonts
+- Quesha - For restaurant branding
+- Baskervville - Primary text font
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/manhaton-lane.git
+   cd manhaton-lane
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
+
+## 📦 Project Structure
+
+```
+manhaton-lane/
+├── app/                  # Next.js app directory
+│   ├── page.tsx         # Home page
+│   ├── menu/            # Menu pages
+│   └── about/           # About page
+├── components/          # React components
+├── public/              # Static assets
+├── styles/             # Global styles
+└── types/              # TypeScript types
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Design Decisions
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Color Scheme**: Clean, modern palette with emphasis on food photography
+- **Typography**: Combination of decorative (Quesha) and readable (Baskervville) fonts
+- **Layout**: Intuitive navigation with focus on menu items and key information
+- **Mobile-First**: Designed with mobile users in mind, including touch-friendly navigation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🤝 Contributing
 
-## Learn More
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-To learn more about Next.js, take a look at the following resources:
+## 📄 License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 👥 Authors
 
-## Deploy on Vercel
+- Your Name - Initial work - [GitHub Profile](https://github.com/yourusername)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🙏 Acknowledgments
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Font providers
+- Image assets
+- Design inspiration
