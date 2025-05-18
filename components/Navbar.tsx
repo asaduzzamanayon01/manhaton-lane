@@ -16,12 +16,17 @@ const Navbar = () => {
               alt="Manhaton Lane"
               width={180}
               height={60}
-              className="h-24 w-auto"
+              className="h-16 md:h-24 w-auto"
               priority
             />
           </Link>
 
-          <h1 className="hidden md:block text-6xl font-normal text-gray-900" style={{ fontFamily: 'Quesha' }}>Manhaton Lane</h1>
+          <h1 
+            className="text-3xl md:text-6xl lg:text-7xl font-normal text-gray-900 absolute left-1/2 transform -translate-x-1/2" 
+            style={{ fontFamily: 'Quesha' }}
+          >
+            Manhaton Lane
+          </h1>
 
           {/* Desktop Navigation */}
           <NavigationMenu className="hidden md:block">
@@ -42,8 +47,8 @@ const Navbar = () => {
           {/* Mobile Navigation */}
           <Sheet>
             <SheetTrigger asChild className="md:hidden">
-              <Button variant="ghost" size="icon">
-                <Menu className="h-6 w-6" />
+              <Button variant="ghost" size="icon" className="h-12 w-12">
+                <Menu className="h-8 w-8" />
                 <span className="sr-only">Toggle menu</span>
               </Button>
             </SheetTrigger>
