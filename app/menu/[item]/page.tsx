@@ -1,12 +1,10 @@
 import Image from 'next/image'
 import { notFound } from 'next/navigation'
 import { menuItems } from '@/data/menu'
-import { MenuItem, MenuItemSlug, createSlug } from '@/types/menu'
+import { createSlug } from '@/types/menu'
 
 interface PageProps {
-  params: {
-    item: MenuItemSlug;
-  };
+  params: { item: string }
 }
 
 export default function Page({ params }: PageProps) {
