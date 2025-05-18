@@ -115,10 +115,9 @@ const menuItems: MenuItems = {
 
 type Props = {
   params: { item: string }
-  searchParams: { [key: string]: string | string[] | undefined }
 }
 
-export default async function ItemPage({ params, searchParams }: Props) {
+export default async function ItemPage({ params }: Props) {
   // Get all menu items in a flat array
   const allItems = Object.values(menuItems).flat()
   
