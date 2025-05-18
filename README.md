@@ -82,7 +82,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- [A.K.M. Asaduzzaman Ayon](https://github.com/asaduzzamanayon01) - Initial work
+- [A.K.M. Asaduzzaman Ayon](https://github.com/asaduzzamanayon01) 
 
 ## 🙏 Acknowledgments
 
