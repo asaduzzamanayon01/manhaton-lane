@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { notFound } from 'next/navigation'
-import { MenuItem, MenuItems } from '@/types/menu'
+import type { MenuItems } from '@/types/menu'
 
 const menuItems: MenuItems = {
   burgers: [

@@ -37,7 +37,7 @@ export default function Home() {
         />
         <div className="container mx-auto px-4 relative z-10 text-white">
           <h1 className="text-5xl md:text-7xl font-normal mb-8 leading-tight">
-            Brisbane's Best<br />Burgers & Steaks
+            Brisbane&apos;s Best<br />Burgers &amp; Steaks
           </h1>
           <p className="text-xl md:text-2xl mb-10 max-w-2xl leading-relaxed">
             Experience mouth-watering burgers, perfectly cooked steaks, and more at Manhaton Lane.

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { MenuItem, MenuItems } from '@/types/menu'
+import type { MenuItems } from '@/types/menu'
 
 const menuItems: MenuItems = {
   burgers: [
