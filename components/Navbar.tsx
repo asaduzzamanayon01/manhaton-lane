@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { Menu } from 'lucide-react'
 import { NavigationMenu, NavigationMenuItem, NavigationMenuList } from '@/components/ui/navigation-menu'
-import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet'
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet'
 import { Button } from '@/components/ui/button'
 
 const Navbar = () => {
@@ -48,7 +48,10 @@ const Navbar = () => {
               </Button>
             </SheetTrigger>
             <SheetContent side="right" className="w-[300px] sm:w-[400px]">
-              <div className="flex flex-col gap-4 mt-8">
+              <SheetHeader>
+                <SheetTitle className="text-left">Manhaton Lane</SheetTitle>
+              </SheetHeader>
+              <div className="flex flex-col gap-4 mt-8 px-6">
                 <Link 
                   href="/menu" 
                   className="text-2xl font-medium hover:text-gray-600 transition-colors py-2"
