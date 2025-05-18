@@ -4,6 +4,8 @@
 
 A modern, responsive restaurant website for Manhaton Lane, Brisbane's premier destination for gourmet burgers and steaks. The website features a clean, intuitive design that showcases the restaurant's menu items and provides essential information to customers.
 
+🔗 **[View Live Website](https://manhaton-lane.vercel.app/)**
+
 ## 🌟 Features
 
 - **Responsive Design**: Fully responsive layout that works seamlessly on desktop, tablet, and mobile devices
@@ -32,7 +34,7 @@ A modern, responsive restaurant website for Manhaton Lane, Brisbane's premier de
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/manhaton-lane.git
+   git clone https://github.com/asaduzzamanayon01/manhaton-lane.git
    cd manhaton-lane
    ```
 
@@ -80,7 +82,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- Your Name - Initial work - [GitHub Profile](https://github.com/yourusername)
+- [A.K.M. Asaduzzaman Ayon](https://github.com/asaduzzamanayon01) - Initial work
 
 ## 🙏 Acknowledgments
 
