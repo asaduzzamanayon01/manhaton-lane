@@ -113,7 +113,13 @@ const menuItems: MenuItems = {
   ]
 }
 
-export default function ItemPage({ params }: { params: { item: string } }) {
+interface PageProps {
+  params: {
+    item: string;
+  };
+}
+
+export default function ItemPage({ params }: PageProps) {
   // Get all menu items in a flat array
   const allItems = Object.values(menuItems).flat()
   
