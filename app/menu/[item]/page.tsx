@@ -113,13 +113,12 @@ const menuItems: MenuItems = {
   ]
 }
 
-interface PageProps {
-  params: {
-    item: string;
-  };
+type Props = {
+  params: { item: string }
+  searchParams: { [key: string]: string | string[] | undefined }
 }
 
-export default function ItemPage({ params }: PageProps) {
+export default async function ItemPage({ params, searchParams }: Props) {
   // Get all menu items in a flat array
   const allItems = Object.values(menuItems).flat()
   
